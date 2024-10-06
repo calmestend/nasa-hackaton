@@ -1,5 +1,5 @@
 <div class="header-container">
-	<h1>Cero C02: Hacia un futuro sostenible</h1>
+	<h1>Cero CO₂: Hacia un futuro sostenible</h1>
 </div>
 
 <section class="planetary-boundaries">
@@ -39,48 +39,58 @@
 		</div>
 	</div>
 </section>
-<section>
-	<p>
-		Al considerar los límites del planeta como un marco fundamental para la sostenibilidad, es
-		crucial que estos principios se utilicen en contextos como naciones y sus respectivos estados.
-	</p>
+
+
+<section class="centrar mapa-centrado">
+	<h1 class="fondo_blanco">Identificar e Interactuar con los Límites planetarios</h1>
+	<p class="espacio centrar texto-grande" style="color: #000;">
+    Al considerar los límites del planeta como un marco fundamental para la sostenibilidad, es
+    crucial que estos principios se utilicen en contextos como naciones y sus respectivos estados.
+</p>
+
+
 	<iframe
-		title="CO2 Entidades mapa"
+		title="CO₂ Entidades mapa"
 		src="http://127.0.0.1:5000/static/co2_entidades_map.html"
 		frameborder="0"
 		width="200"
 		height="200"
+		class="menos_pd"
 	></iframe>
 </section>
 
 <section>
-	<div>
-		<p>Querétaro</p>
+	<div class="subtitulos_2 padding menos_pd">
+		<p class="menos_pd espacio">Concentración de CO₂ en Querétaro</p>
 	</div>
 	<div>
-		<p>
+		<p class="espacio texto-grande menos_pd centrar">
 			El informe de Calidad del Aire de 2021 del Gobierno del Estado de Querétaro indica que las
-			concentraciones de CO2 y otros contaminantes varían según la estación, con un aumento notable
+			concentraciones de CO₂ y otros contaminantes varían según la estación, con un aumento notable
 			durante los meses en los que hay más vehículos, las tendencias muestran un aumento en las
 			emisiones debido a la actividad industrial y vehicular.
 		</p>
 	</div>
-</section>
-
-<section>
 	<div>
-		<p>Querétaro</p>
+		<p class="espacio">*Mapa de Concentración de CO₂ en Querétaro</p>
 	</div>
-	<iframe
+	<div class="mapa-centrado">
+		<iframe
 		title="Queretaro mapa"
 		src="http://127.0.0.1:5000/static/queretaro_map.html"
 		frameborder="0"
 		width="400"
 		height="400"
 	></iframe>
+	</div>
+	
+</section>
+
+<section class="centrar">
+	
 	<div>
-		<p>
-			Querétaro tiene la intención de reducir o compensar 2 millones de toneladas de CO2 para 2023.
+		<p class="espacio texto-grande menos_pd centrar">
+			Querétaro tiene la intención de reducir o compensar 2 millones de toneladas de CO₂ para 2023.
 			La dependencia estatal ha identificado a 400 empresas industriales que emiten directamente a
 			la atmósfera y ha iniciado capacitaciones para ayudarlas a obtener el sello de compensación.
 		</p>
@@ -88,12 +98,15 @@
 </section>
 
 <section>
-	<div>
-		<p>CDMX</p>
+	<div class="espacio subtitulos_2">
+		<p>Concentración de CO₂ en la CDMX por Años</p>
 	</div>
-	<img src="CO2-Totales-Por-Ano-CDMX.jpg" alt="CO2 Totales por ano cdmx" />
+	<div class="mapa-centrado">
+		<img src="CO2-Totales-Por-Ano-CDMX.jpg" alt="CO2 Totales por ano cdmx" class="mapa-centrado" />
+	</div>
+	
 	<div>
-		<p>
+		<p class="espacio texto-grande menos_pd centrar">
 			Se determinaron las emisiones adicionales de dióxido de carbono (CO₂) provocadas por las obras
 			en el CETRAM Indios Verdes, que obstruyeron la vialidad en el norte de la Ciudad de México.
 			Utilizando factores de emisión, se estimó el CO₂ emitido por los vehículos en el tránsito
@@ -103,54 +116,59 @@
 </section>
 
 <section>
-	<div>
-		<p>CDMX</p>
+
+	<div class="centrar mapa-centrado">
+		<div class="espacio">
+			<p class="subtitulos_2"> Concentración de CO₂ en la CDMX en el Mapa
+			</p>
+			
+		</div>
+		<div class="mapa-centrado">
+			<iframe src="http://127.0.0.1:5000/static/cdmx_map.html" frameborder="0" width="400" height="400"
+	>	</iframe>
+		</div>
+
+		
 	</div>
-	<iframe src="http://127.0.0.1:5000/static/cdmx_map.html" frameborder="0" width="400" height="400"
-	></iframe>
-	<div>
-		<p>
-			Los resultados indican que, debido a una planificación ambiental y urbana deficiente, así como
-			a la falta de medidas de prevención y control, se emitieron más de 17 millones de kilogramos
-			de CO₂. Además, se estima que se perdieron más de 48 millones de horas-hombre en el tránsito y
-			se consumieron adicionalmente más de 1.5 millones de litros de gasolina y más de 900 mil
-			litros de diésel. Este crecimiento descontrolado de la ciudad y la falta de planeación
-			ambiental tienen importantes repercusiones.
-		</p>
-	</div>
-</section>
-<section>
-	<h2 class="title">Sectores con mayor contribución porcentual</h2>
-	<hr />
-	<h3>Los sectores con mayor contribución porcentual de emisiones de CO2 en el 2010 son:</h3>
+	
+	
 </section>
 
+
 <section>
-	<div>
-		<p>
-			transporte, 31.1%; generación eléctrica, 23.3%; manufactura y construcción, 11.4%; consumo
-			propio de la industria energética, 9.6%; conversión de bosques y pastizales, 9.2%, y otros
-			(residencial, comercial y agropecuario), 6.7%.
-		</p>
-	</div>
+	<h2 class="subtitulos_2 espacio">Sectores con mayor contribución porcentual</h2>
+	<hr /><br>
+	<h3 class="espacio subtitulos_2 ">Las entidades federativas con mayor contribución porcentual de emisiones de CO₂ en el 2010 son:</h3>
 </section>
 
 <section>
-	<p>
-		Las emisiones de CO 2 fueron de 493,450.6 Gg en 2010, contribuyeron en 65.9% al total del
-		inventario y tuvieron un incremento de 23.6% con respecto a 1990. Las emisiones de CO 2 en el
-		país provienen principalmente de la quema de combustibles fósiles, USCUSS y Procesos
-	</p>
+	<div class="espacio centrar" style="padding:20px; margin:30px;">
+    <p style="font-size: 1rem; padding:20px; border: 2px solid white; border-radius: 10px; background-color: transparent; margin-bottom: 20px;">
+        *transporte, 31.1%; generación eléctrica, 23.3%; manufactura y construcción, 11.4%; consumo
+        propio de la industria energética, 9.6%; conversión de bosques y pastizales, 9.2%, y otros
+        (residencial, comercial y agropecuario), 6.7%.
+    </p>
+    <p style="font-size: 1rem; padding:20px; border: 2px solid white; border-radius: 10px; background-color: transparent; margin-bottom: 20px;">
+        Las emisiones de CO₂ fueron de 493,450.6 Gg en 2010, contribuyeron en 65.9% al total del
+        inventario y tuvieron un incremento de 23.6% con respecto a 1990. Las emisiones de CO₂ en el
+        país provienen principalmente de la quema de combustibles fósiles, USCUSS y Procesos.
+    </p>
+    <p style="font-size: 1rem; padding:20px; border: 2px solid white; border-radius: 10px; background-color: transparent;">
+        Para 2010 en unidades de CO₂ equivalente, 4 se estimaron en gigagramos (Gg) Las emisiones de CO₂
+        2 fueron de 493,450.6 Gg en 2010, contribuyeron en 65.9% al total del inventario y tuvieron un
+        incremento de 23.6% con respecto a 1990.
+    </p>
+</div>
 
-	<p>
-		Para 2010 en unidades de CO 2 equivalente,4 se estimaron en gigagramos (Gg) Las emisiones de CO
-		2 fueron de 493,450.6 Gg en 2010, contribuyeron en 65.9% al total del inventario y tuvieron un
-		incremento de 23.6% con respecto a 1990.
-	</p>
 
-	<img src="toneladas_co2_por_entidad.png" alt="Toneladas CO2 por entidad" />
-	<img src="toneladas_de_gei.png" alt="Toneladas de GEI por entidad" />
 </section>
+
+<section class="mapa-centrado" style="display: flex; justify-content: space-between; align-items: center; padding: 20px;">
+    <img src="toneladas_co2_por_entidad.png" alt="Toneladas CO2 por entidad" style="max-width: 45%; height: auto;"/>
+    <img src="toneladas_de_gei.png" alt="Toneladas de GEI por entidad" style="max-width: 45%; height: auto;"/>
+</section>
+
+
 
 <style lang="scss">
 	.header-container {

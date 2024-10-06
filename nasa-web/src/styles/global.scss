@@ -5,12 +5,92 @@ body {
   background-color: #1c1a1c;
   color: #fff;
   font-family: "Oswald", sans-serif;
+  font-weight: 350;
 }
+
+
+.subtitulos {
+  background-color: #1c1a1c;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+}
+
+.subtitulos_2 {
+  background-color: #1c1a1c; /* Color de fondo */
+  color: #fff; /* Color de texto */
+  font-family: "Oswald", sans-serif; /* Tipo de letra */
+  font-size: 2.5rem; /* Tamaño de fuente más pequeño que el título */
+  font-weight: 600; /* Grosor del texto (puedes ajustar esto) */
+  padding: 10px; /* Espaciado alrededor del texto */
+  margin: 20px 0; /* Margen arriba y abajo para separarlo de otros elementos */
+}
+
+.menos_pd {
+  padding: 5px; /* Espaciado reducido alrededor del texto */
+  margin: 10px 0; /* Menor margen arriba y abajo */
+}
+
+.mapa-centrado {
+  display: flex; /* Permite centrar el contenido dentro del contenedor */
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  padding: 20px; /* Espaciado alrededor del iframe */
+  background-color: #faf0e6; /* Color de fondo para estética */
+  border: 2px solid #1c1a1c; /* Borde estético */
+  border-radius: 10px; /* Esquinas redondeadas */
+}
+
+.mapa-centrado iframe {
+  width: 100%; /* Ocupa el 100% del contenedor */
+  height: 600px; /* Altura del iframe */
+  max-width: 800px; /* Ancho máximo para el iframe */
+  border: none; /* Elimina el borde del iframe */
+}
+
+
+
+.centrar {
+  text-align: center;
+}
+
+.espacio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding{
+  padding: 50px;
+}
+
+.texto-grande {
+  font-size: 1.45rem; /* Ajusta este valor según necesites */
+}
+
+
+
+.fondo_blanco {
+  background-color: #faf0e6; /* Blanco hueso */
+  color: #1c1a1c;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold; /* Aumenta el grosor del texto */
+  padding: 50px; /* Ajusta el valor del padding según necesites */
+  font-size: 3rem; /* Aumenta el tamaño del texto (ajusta según necesites) */
+  line-height: 1.2; /* Ajusta la altura de línea para mejor visibilidad */
+  text-transform: uppercase; /* Cambia a mayúsculas para parecer un título */
+}
+
+
 
 .navbar-container {
   display: flex;
   justify-content: center;
   position: sticky;
+}
+
+.espacio {
+  display: flex;
+  padding: 50px; /* Puedes ajustar el valor según lo necesites */
 }
 
 .navbar {
