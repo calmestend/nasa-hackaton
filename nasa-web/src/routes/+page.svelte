@@ -1,3 +1,3 @@
 <h1>home</h1>
 
-<img src="https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/" alt="" />
+<iframe title="map" src="http://127.0.0.1:5000/static/co2_map.html" frameborder="0"></iframe>
